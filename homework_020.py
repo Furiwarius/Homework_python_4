@@ -6,6 +6,7 @@ from homework_019 import polynomial_formation
 
 
 def create_file(file_number):
+    # генерация файла с заданным номером
 
     with open(f"file_020_{file_number}.txt", "w") as f:
         for i in range(2, 10):
@@ -15,7 +16,7 @@ def create_file(file_number):
 
 
 def assembly_line(new_dict):
-
+    # формирование строки для последующей записи в файл
 
     rezult_str='=0'
     for key in new_dict:
